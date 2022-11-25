@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+.body {
+    background-color:#F6CECE;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body{
+    margin: 0;
+}
+.center {
+    padding:0 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header {
+    
+    background-color: lightpink;
+    border-bottom:2px solid lightpink;
+    padding: 20px;
+}
+
+.Logo {
+    color: rgb(206, 83, 206);
+}
+
+.Menu a{ 
+    
+    color: rgb(53, 12, 53);
+    font-size: 14px;
+    text-decoration: none;
+    float: inline-start; width: 50px ;
+    font-size: 20px;
+    padding: 10px;
+    background-color:#F6CEEC;
+    box-shadow: 0px 10px 10px rgb(167, 56, 167);
+}
+
+.Menu a:hover{
+    color: rgb(167, 56, 167);
+}
+
+#pai{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:30px ;
+}
+
+.imagem{
+    display: flex;
+    height: 10%;
+    padding-right: 10%;
+}
+
+.main2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6CEEC;
+    padding: 100px;
+    box-shadow: 0px 10px  10px  5px rgb(167, 56, 167);
+}
+
+
+.main2 h1{
+    padding: 30px;
+    color: rgb(206, 83, 206);
+    font-size: 24px;
+}
+
+.main2 a{
+    text-decoration: none;
+    background-color:lightpink ;
+    padding: 10px;
+    box-shadow: 0px 10px  10px  5px rgb(167, 56, 167);
+}
